@@ -1,0 +1,32 @@
+1. Default values should be initialized every time the app starts
+
+#Menu
+2. Input "Menu" should show the menu options
+3. Input anything else should not show any
+
+#Balance 
+4. First run should show the default balance of 150000
+5. Any other run should show the most current balance
+
+#Deposit
+6. Input "Menu" should show the menu options ['Balance', 'Deposit', 'Withdrawal', 'Quit']
+7. Deposit amount of 1 to 40000 should add the amount to the current balance
+8. Deposit amount of 0 and below should not add the amount to the current balance and inform the user the amount is not valid
+9. Deposit non-numeric amount should not change the current balance amount inform the user the input is not valid
+10. Depositing 5 deposits of 100 each (max is 4) within the same session should add 400 to the current balance and the 5th entry should result in an appropriate error message
+11. Depositing 40000 deposits 4 times in a row (max daily deposit = 150000) should add 120000 to the current balance and the 4th entry should result in an appropriate error message
+12. Deposit amount of 400001 and above should inform the user the max deposit amount is up to 40000
+
+#Withdrawal
+13. Input "Menu" should show the menu options ['Balance', 'Deposit', 'Withdrawal', 'Quit']
+14. Withdrawal amount of 1 to 20000 should subtract the amount from the current balance
+15. Withdrawal amount of 0 and below should not change the current balance and inform the user the amount is invalid
+16. Withdrawal amount of 20001 and above should not change the current balance and inform the user the amount is invalid
+17. Withdrawal amount of non-numeric should not change the current balance and inform the user the amount is invalid
+18. Withdrawing 20000 3 times should only add 40000 (first 2) to the current balance and inform the user (on the 3rd try) that the maximum allowed withdrawal of 50000 is exceeded
+19. Withdrawing 100 4 times should add the first three (300) to the current balance and inform the user on the 4th time the max withdrawals per day of 3 is exceeded
+
+#Quit
+20. Input "Quit" should prompt the user if they are sure and ask for a 'yes' or 'no'
+    a. 'yes' input should quit the app
+    b. 'no' input should not quit the app and show the menu options
