@@ -10,7 +10,7 @@ A simple ATM program exercise for Tala.co
     a. inquirer (gem install inquirer or sudo gem install inquirer)
 
 3. Clone this repo to your local machine
-    a. git clone 
+    a. git clone git@github.com:erdpabustan/tala_atm.git
     
 ## Running the program
 The simplest way to execute the program is via the command prompt.
@@ -21,16 +21,22 @@ The simplest way to execute the program is via the command prompt.
 ## Features
 ### 1. Balance
 Option to show the current balance of the account
+
 ### 2. Deposit
 Option that allows the user to deposit money to the account
+
 ### 3. Withdrawal
 Option that allows the user to withdraw money to the account
+
 ### 4. Quit
 Exits the program
+
 ### 5. Menu
 Shows the common available menu options
+
 ### 6. Status
 Shows current state of various transactions and is hidden from the menu options. This is mainly used to check the various variables used during the session.
 
-
+## Test Coverage
+Test cases are outlined in tests.txt
  
