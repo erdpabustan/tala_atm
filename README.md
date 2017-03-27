@@ -40,3 +40,9 @@ Shows current state of various transactions and is hidden from the menu options.
 ## Test Coverage
 Test cases are outlined in tests.txt
  
+## Next Steps
+### Automation
+Automation of all tests can be done via Rspec (https://github.com/rspec/rspec) or minitest (https://github.com/seattlerb/minitest)
+
+### Code Coverage
+Code coverage can be done via SimpleCov (https://github.com/colszowka/simplecov) and should be executed via jenkins (https://jenkins.io)
